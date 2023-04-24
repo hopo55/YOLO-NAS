@@ -7,7 +7,7 @@ import numpy as np
 import os
 import random
 
-import horovod.torch as hvd
+import horovod.torch as hvd # Multi-GPU distributed training framework
 import torch
 
 from ofa.imagenet_classification.elastic_nn.modules.dynamic_op import (
