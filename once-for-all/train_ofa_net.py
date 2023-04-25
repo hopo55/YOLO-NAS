@@ -17,7 +17,7 @@ from ofa.imagenet_classification.elastic_nn.networks import OFAMobileNetV3
 from ofa.imagenet_classification.run_manager import DistributedImageNetRunConfig
 from ofa.imagenet_classification.networks import MobileNetV3Large
 from ofa.imagenet_classification.run_manager.distributed_run_manager import (
-    DistributedRunManager,
+    DistributedRunManager, 
 )
 from ofa.utils import download_url, MyRandomResizedCrop
 from ofa.imagenet_classification.elastic_nn.training.progressive_shrinking import (
@@ -134,7 +134,8 @@ if __name__ == "__main__":
     # Initialize Horovod
     hvd.init()
     # Pin GPU to be used to process local rank (one GPU per process)
-    torch.cuda.set_device(hvd.local_rank())
+    # local_rank = 0 / rank = 0 / size = 1
+    torch.cuda.set_device(hvd.local_rank()) 
 
     args.teacher_path = download_url(
         "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D4_E6_K7",
@@ -152,8 +153,8 @@ if __name__ == "__main__":
     args.image_size = [int(img_size) for img_size in args.image_size.split(",")]
     if len(args.image_size) == 1:
         args.image_size = args.image_size[0]
-    MyRandomResizedCrop.CONTINUOUS = args.continuous_size
-    MyRandomResizedCrop.SYNC_DISTRIBUTED = not args.not_sync_distributed_image_size
+    MyRandomResizedCrop.CONTINUOUS = args.continuous_size   # True
+    MyRandomResizedCrop.SYNC_DISTRIBUTED = not args.not_sync_distributed_image_size # not False -> True
 
     # build run config from args
     args.lr_schedule_param = None
