@@ -30,7 +30,7 @@ class OFAMobileNetV3(MobileNetV3):
         base_stage_width=None,  # proxyless
         width_mult=1.0,
         ks_list=3,  # [3, 5, 7]
-        expand_ratio_list=6,
+        expand_ratio_list=6,    # [6]
         depth_list=4,   # [3, 4]
     ):
 
@@ -45,8 +45,9 @@ class OFAMobileNetV3(MobileNetV3):
 
         base_stage_width = [16, 16, 24, 40, 80, 112, 160, 960, 1280]
 
+        # make_divisible -> Confirmation required
         final_expand_width = make_divisible(
-            base_stage_width[-2] * self.width_mult, MyNetwork.CHANNEL_DIVISIBLE
+            base_stage_width[-2] * self.width_mult, MyNetwork.CHANNEL_DIVISIBLE # 960 * 1 * 8 = 7,680
         )
         last_channel = make_divisible(
             base_stage_width[-1] * self.width_mult, MyNetwork.CHANNEL_DIVISIBLE
@@ -55,15 +56,16 @@ class OFAMobileNetV3(MobileNetV3):
         stride_stages = [1, 2, 2, 2, 1, 2]
         act_stages = ["relu", "relu", "relu", "h_swish", "h_swish", "h_swish"]
         se_stages = [False, False, True, False, True, True]
-        n_block_list = [1] + [max(self.depth_list)] * 5
+        n_block_list = [1] + [max(self.depth_list)] * 5 # [1, 4, 4, 4, 4, 4]
         width_list = []
-        for base_width in base_stage_width[:-2]:
+        for base_width in base_stage_width[:-2]:    # [16, 16, 24, 40, 80, 112, 160]
             width = make_divisible(
                 base_width * self.width_mult, MyNetwork.CHANNEL_DIVISIBLE
             )
             width_list.append(width)
-
-        input_channel, first_block_dim = width_list[0], width_list[1]
+        
+        # input_channel=16 / first_block_dim=16
+        input_channel, first_block_dim = width_list[0], width_list[1]   
         # first conv layer
         first_conv = ConvLayer(
             3, input_channel, kernel_size=3, stride=2, act_func="h_swish"

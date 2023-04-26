@@ -197,16 +197,12 @@ if __name__ == "__main__":
         else args.width_mult_list
     )   # [1.0]
 
-    print("===================================")
-    print(run_config.data_provider.n_classes)
-    print("===================================")
-
     # build model
     net = OFAMobileNetV3(
         n_classes=run_config.data_provider.n_classes,
         bn_param=(args.bn_momentum, args.bn_eps),   # 0.1, 1e-05
         dropout_rate=args.dropout,  # 0.1
-        base_stage_width=args.base_stage_width, # proxyless
+        base_stage_width=args.base_stage_width, # proxyless -> ???????
         width_mult=args.width_mult_list,    # 1.0
         ks_list=args.ks_list,   # [3, 5, 7]
         expand_ratio_list=args.expand_list, # [6]

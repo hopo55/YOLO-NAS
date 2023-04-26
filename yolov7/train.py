@@ -604,6 +604,11 @@ if __name__ == '__main__':
     # Hyperparameters
     with open(opt.hyp) as f:
         hyp = yaml.load(f, Loader=yaml.SafeLoader)  # load hyps
+    
+    print('==================================================')
+    print('opt')
+    print(opt)
+    print('==================================================')
 
     # Train
     logger.info(opt)
