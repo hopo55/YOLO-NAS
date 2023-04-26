@@ -177,23 +177,25 @@ if __name__ == "__main__":
         for k, v in run_config.config.items():
             print("\t%s: %s" % (k, v))
 
-    if args.dy_conv_scaling_mode == -1:
+    if args.dy_conv_scaling_mode == -1: # 1
         args.dy_conv_scaling_mode = None
     DynamicSeparableConv2d.KERNEL_TRANSFORM_MODE = args.dy_conv_scaling_mode
 
     # build net from args
     args.width_mult_list = [
-        float(width_mult) for width_mult in args.width_mult_list.split(",")
+        float(width_mult) for width_mult in args.width_mult_list.split(",") # [1.0]
     ]
-    args.ks_list = [int(ks) for ks in args.ks_list.split(",")]
-    args.expand_list = [int(e) for e in args.expand_list.split(",")]
-    args.depth_list = [int(d) for d in args.depth_list.split(",")]
+    args.ks_list = [int(ks) for ks in args.ks_list.split(",")]  # [3, 5, 7]
+    args.expand_list = [int(e) for e in args.expand_list.split(",")]    # [6]
+    args.depth_list = [int(d) for d in args.depth_list.split(",")]  # [3, 4]
 
     args.width_mult_list = (
         args.width_mult_list[0]
         if len(args.width_mult_list) == 1
         else args.width_mult_list
     )
+
+    # build model
     net = OFAMobileNetV3(
         n_classes=run_config.data_provider.n_classes,
         bn_param=(args.bn_momentum, args.bn_eps),

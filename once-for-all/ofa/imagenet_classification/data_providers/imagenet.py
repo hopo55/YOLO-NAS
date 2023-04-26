@@ -17,7 +17,7 @@ __all__ = ["ImagenetDataProvider"]
 
 
 class ImagenetDataProvider(DataProvider):
-    DEFAULT_PATH = "/dataset/imagenet"
+    DEFAULT_PATH = "/ETRI/YOLO-NAS/once-for-all/dataset/imagenet"
 
     def __init__(
         self,
@@ -165,7 +165,7 @@ class ImagenetDataProvider(DataProvider):
         if self._save_path is None:
             self._save_path = self.DEFAULT_PATH
             if not os.path.exists(self._save_path):
-                self._save_path = os.path.expanduser("~/dataset/imagenet")
+                self._save_path = os.path.expanduser("~/ETRI/YOLO-NAS/once-for-all/dataset/imagenet")
         return self._save_path
 
     @property
