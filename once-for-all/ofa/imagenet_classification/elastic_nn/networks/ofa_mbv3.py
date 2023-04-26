@@ -27,11 +27,11 @@ class OFAMobileNetV3(MobileNetV3):
         n_classes=1000,
         bn_param=(0.1, 1e-5),
         dropout_rate=0.1,
-        base_stage_width=None,
+        base_stage_width=None,  # proxyless
         width_mult=1.0,
-        ks_list=3,
+        ks_list=3,  # [3, 5, 7]
         expand_ratio_list=6,
-        depth_list=4,
+        depth_list=4,   # [3, 4]
     ):
 
         self.width_mult = width_mult

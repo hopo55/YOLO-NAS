@@ -1,0 +1,5191 @@
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========6.938	0.108	0.631	R160-D3-E6-K3-W0 (0.102), R224-D3-E6-K3-W0 (0.051), R160-D3-E6-K7-W0 (0.102), R224-D3-E6-K7-W0 (0.076), R160-D4-E6-K3-W0 (0.102), R224-D4-E6-K3-W0 (0.178), R160-D4-E6-K7-W0 (0.076), R224-D4-E6-K7-W0 (0.178), 
+==========------------------------------Supporting Elastic Depth: [4] -> [4, 3]------------------------------
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========6.938	0.108	0.631	R160-D3-E6-K3-W0 (0.102), R224-D3-E6-K3-W0 (0.051), R160-D3-E6-K7-W0 (0.102), R224-D3-E6-K7-W0 (0.076), R160-D4-E6-K3-W0 (0.102), R224-D4-E6-K3-W0 (0.178), R160-D4-E6-K7-W0 (0.076), R224-D4-E6-K7-W0 (0.178), 
+==========------------------------------Supporting Elastic Depth: [4] -> [4, 3]------------------------------
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========6.933	0.112	0.621	R160-D3-E6-K3-W0 (0.102), R224-D3-E6-K3-W0 (0.076), R160-D3-E6-K7-W0 (0.102), R224-D3-E6-K7-W0 (0.051), R160-D4-E6-K3-W0 (0.076), R224-D4-E6-K3-W0 (0.178), R160-D4-E6-K7-W0 (0.076), R224-D4-E6-K7-W0 (0.229), 
+==========------------------------------Supporting Elastic Depth: [4] -> [4, 3]------------------------------
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [1/25] loss=6.943, top-1=0.350 (0.350), Train top-1 0.216, Train loss 6.897	R160-D3-E6-K3-W0 (0.310), R224-D3-E6-K3-W0 (0.280), R160-D3-E6-K7-W0 (0.280), R224-D3-E6-K7-W0 (0.420), R160-D4-E6-K3-W0 (0.470), R224-D4-E6-K3-W0 (0.450), R160-D4-E6-K7-W0 (0.260), R224-D4-E6-K7-W0 (0.330), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [2/25] loss=6.837, top-1=0.299 (0.350), Train top-1 0.382, Train loss 6.845	R160-D3-E6-K3-W0 (0.340), R224-D3-E6-K3-W0 (0.400), R160-D3-E6-K7-W0 (0.240), R224-D3-E6-K7-W0 (0.320), R160-D4-E6-K3-W0 (0.270), R224-D4-E6-K3-W0 (0.270), R160-D4-E6-K7-W0 (0.280), R224-D4-E6-K7-W0 (0.270), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [3/25] loss=6.739, top-1=0.659 (0.659), Train top-1 0.531, Train loss 6.770	R160-D3-E6-K3-W0 (0.530), R224-D3-E6-K3-W0 (0.650), R160-D3-E6-K7-W0 (0.690), R224-D3-E6-K7-W0 (0.800), R160-D4-E6-K3-W0 (0.650), R224-D4-E6-K3-W0 (0.660), R160-D4-E6-K7-W0 (0.660), R224-D4-E6-K7-W0 (0.630), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [4/25] loss=6.594, top-1=0.758 (0.758), Train top-1 0.594, Train loss 6.661	R160-D3-E6-K3-W0 (0.790), R224-D3-E6-K3-W0 (0.810), R160-D3-E6-K7-W0 (0.740), R224-D3-E6-K7-W0 (0.720), R160-D4-E6-K3-W0 (0.780), R224-D4-E6-K3-W0 (0.790), R160-D4-E6-K7-W0 (0.710), R224-D4-E6-K7-W0 (0.720), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [5/25] loss=6.460, top-1=0.821 (0.821), Train top-1 0.839, Train loss 6.552	R160-D3-E6-K3-W0 (0.750), R224-D3-E6-K3-W0 (0.870), R160-D3-E6-K7-W0 (0.880), R224-D3-E6-K7-W0 (0.920), R160-D4-E6-K3-W0 (0.740), R224-D4-E6-K3-W0 (0.730), R160-D4-E6-K7-W0 (0.780), R224-D4-E6-K7-W0 (0.900), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [6/25] loss=6.382, top-1=1.126 (1.126), Train top-1 1.000, Train loss 6.466	R160-D3-E6-K3-W0 (1.180), R224-D3-E6-K3-W0 (1.310), R160-D3-E6-K7-W0 (1.010), R224-D3-E6-K7-W0 (1.090), R160-D4-E6-K3-W0 (1.040), R224-D4-E6-K3-W0 (1.160), R160-D4-E6-K7-W0 (1.050), R224-D4-E6-K7-W0 (1.170), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [7/25] loss=6.274, top-1=1.472 (1.472), Train top-1 1.344, Train loss 6.396	R160-D3-E6-K3-W0 (1.580), R224-D3-E6-K3-W0 (1.480), R160-D3-E6-K7-W0 (1.380), R224-D3-E6-K7-W0 (1.350), R160-D4-E6-K3-W0 (1.660), R224-D4-E6-K3-W0 (1.670), R160-D4-E6-K7-W0 (1.290), R224-D4-E6-K7-W0 (1.370), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [8/25] loss=6.195, top-1=1.642 (1.642), Train top-1 1.570, Train loss 6.336	R160-D3-E6-K3-W0 (1.650), R224-D3-E6-K3-W0 (1.790), R160-D3-E6-K7-W0 (1.510), R224-D3-E6-K7-W0 (1.590), R160-D4-E6-K3-W0 (1.720), R224-D4-E6-K3-W0 (1.750), R160-D4-E6-K7-W0 (1.460), R224-D4-E6-K7-W0 (1.670), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [9/25] loss=6.134, top-1=1.861 (1.861), Train top-1 1.821, Train loss 6.265	R160-D3-E6-K3-W0 (1.770), R224-D3-E6-K3-W0 (2.040), R160-D3-E6-K7-W0 (1.850), R224-D3-E6-K7-W0 (1.980), R160-D4-E6-K3-W0 (1.630), R224-D4-E6-K3-W0 (2.030), R160-D4-E6-K7-W0 (1.690), R224-D4-E6-K7-W0 (1.900), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [10/25] loss=6.050, top-1=2.314 (2.314), Train top-1 2.097, Train loss 6.188	R160-D3-E6-K3-W0 (2.200), R224-D3-E6-K3-W0 (2.360), R160-D3-E6-K7-W0 (2.240), R224-D3-E6-K7-W0 (2.500), R160-D4-E6-K3-W0 (2.310), R224-D4-E6-K3-W0 (2.530), R160-D4-E6-K7-W0 (2.100), R224-D4-E6-K7-W0 (2.270), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [11/25] loss=5.952, top-1=2.631 (2.631), Train top-1 2.463, Train loss 6.122	R160-D3-E6-K3-W0 (2.500), R224-D3-E6-K3-W0 (2.850), R160-D3-E6-K7-W0 (2.410), R224-D3-E6-K7-W0 (2.730), R160-D4-E6-K3-W0 (2.580), R224-D4-E6-K3-W0 (2.900), R160-D4-E6-K7-W0 (2.200), R224-D4-E6-K7-W0 (2.880), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [12/25] loss=5.910, top-1=2.766 (2.766), Train top-1 2.788, Train loss 6.056	R160-D3-E6-K3-W0 (2.810), R224-D3-E6-K3-W0 (3.070), R160-D3-E6-K7-W0 (2.420), R224-D3-E6-K7-W0 (2.900), R160-D4-E6-K3-W0 (2.680), R224-D4-E6-K3-W0 (3.050), R160-D4-E6-K7-W0 (2.390), R224-D4-E6-K7-W0 (2.810), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [13/25] loss=5.827, top-1=3.174 (3.174), Train top-1 3.061, Train loss 6.002	R160-D3-E6-K3-W0 (2.980), R224-D3-E6-K3-W0 (3.250), R160-D3-E6-K7-W0 (2.960), R224-D3-E6-K7-W0 (3.370), R160-D4-E6-K3-W0 (3.050), R224-D4-E6-K3-W0 (3.420), R160-D4-E6-K7-W0 (2.880), R224-D4-E6-K7-W0 (3.480), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [14/25] loss=5.785, top-1=3.348 (3.348), Train top-1 3.411, Train loss 5.954	R160-D3-E6-K3-W0 (3.250), R224-D3-E6-K3-W0 (3.700), R160-D3-E6-K7-W0 (2.970), R224-D3-E6-K7-W0 (3.510), R160-D4-E6-K3-W0 (3.190), R224-D4-E6-K3-W0 (3.700), R160-D4-E6-K7-W0 (2.830), R224-D4-E6-K7-W0 (3.630), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [15/25] loss=5.747, top-1=3.631 (3.631), Train top-1 3.821, Train loss 5.904	R160-D3-E6-K3-W0 (3.520), R224-D3-E6-K3-W0 (3.950), R160-D3-E6-K7-W0 (3.260), R224-D3-E6-K7-W0 (3.860), R160-D4-E6-K3-W0 (3.460), R224-D4-E6-K3-W0 (3.960), R160-D4-E6-K7-W0 (3.140), R224-D4-E6-K7-W0 (3.900), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [16/25] loss=5.710, top-1=3.791 (3.791), Train top-1 4.041, Train loss 5.861	R160-D3-E6-K3-W0 (3.720), R224-D3-E6-K3-W0 (4.150), R160-D3-E6-K7-W0 (3.280), R224-D3-E6-K7-W0 (3.950), R160-D4-E6-K3-W0 (3.770), R224-D4-E6-K3-W0 (4.170), R160-D4-E6-K7-W0 (3.390), R224-D4-E6-K7-W0 (3.900), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [17/25] loss=5.677, top-1=3.941 (3.941), Train top-1 4.280, Train loss 5.822	R160-D3-E6-K3-W0 (3.790), R224-D3-E6-K3-W0 (4.370), R160-D3-E6-K7-W0 (3.620), R224-D3-E6-K7-W0 (4.180), R160-D4-E6-K3-W0 (3.660), R224-D4-E6-K3-W0 (4.430), R160-D4-E6-K7-W0 (3.380), R224-D4-E6-K7-W0 (4.100), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [18/25] loss=5.648, top-1=4.070 (4.070), Train top-1 4.605, Train loss 5.794	R160-D3-E6-K3-W0 (3.840), R224-D3-E6-K3-W0 (4.430), R160-D3-E6-K7-W0 (3.790), R224-D3-E6-K7-W0 (4.570), R160-D4-E6-K3-W0 (3.790), R224-D4-E6-K3-W0 (4.400), R160-D4-E6-K7-W0 (3.380), R224-D4-E6-K7-W0 (4.360), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [19/25] loss=5.625, top-1=4.206 (4.206), Train top-1 4.791, Train loss 5.761	R160-D3-E6-K3-W0 (4.000), R224-D3-E6-K3-W0 (4.630), R160-D3-E6-K7-W0 (3.770), R224-D3-E6-K7-W0 (4.570), R160-D4-E6-K3-W0 (3.980), R224-D4-E6-K3-W0 (4.550), R160-D4-E6-K7-W0 (3.630), R224-D4-E6-K7-W0 (4.520), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [20/25] loss=5.618, top-1=4.331 (4.331), Train top-1 5.050, Train loss 5.739	R160-D3-E6-K3-W0 (4.040), R224-D3-E6-K3-W0 (4.700), R160-D3-E6-K7-W0 (3.970), R224-D3-E6-K7-W0 (4.670), R160-D4-E6-K3-W0 (4.230), R224-D4-E6-K3-W0 (4.760), R160-D4-E6-K7-W0 (3.680), R224-D4-E6-K7-W0 (4.600), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [21/25] loss=5.602, top-1=4.447 (4.447), Train top-1 5.181, Train loss 5.717	R160-D3-E6-K3-W0 (4.100), R224-D3-E6-K3-W0 (4.930), R160-D3-E6-K7-W0 (3.930), R224-D3-E6-K7-W0 (5.040), R160-D4-E6-K3-W0 (4.210), R224-D4-E6-K3-W0 (4.790), R160-D4-E6-K7-W0 (3.780), R224-D4-E6-K7-W0 (4.800), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [22/25] loss=5.596, top-1=4.371 (4.447), Train top-1 5.419, Train loss 5.712	R160-D3-E6-K3-W0 (4.060), R224-D3-E6-K3-W0 (4.830), R160-D3-E6-K7-W0 (3.970), R224-D3-E6-K7-W0 (4.680), R160-D4-E6-K3-W0 (4.180), R224-D4-E6-K3-W0 (4.850), R160-D4-E6-K7-W0 (3.720), R224-D4-E6-K7-W0 (4.680), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D3-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R224-D4-E6-K7-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K7), None)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+((O24, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), None)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+(SE(O40, E6.0, K7), Identity)
+((O80, E6.0, K7), None)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+((O80, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), None)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O112, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), None)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+(SE(O160, E6.0, K7), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+==========Valid [23/25] loss=5.585, top-1=4.504 (4.504), Train top-1 5.718, Train loss 5.696	R160-D3-E6-K3-W0 (4.190), R224-D3-E6-K3-W0 (4.880), R160-D3-E6-K7-W0 (4.010), R224-D3-E6-K7-W0 (4.890), R160-D4-E6-K3-W0 (4.380), R224-D4-E6-K3-W0 (4.840), R160-D4-E6-K7-W0 (3.890), R224-D4-E6-K7-W0 (4.950), 
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+
+------------------------------ Validate R160-D3-E6-K3-W0 ------------------------------
+3x3_Conv_O16_H_SWISH_BN
+(3x3_MBConv1_RELU_O16_BN, Identity)
+((O24, E6.0, K3), None)
+((O24, E6.0, K3), Identity)
+((O24, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), None)
+(SE(O40, E6.0, K3), Identity)
+(SE(O40, E6.0, K3), Identity)
+((O80, E6.0, K3), None)
+((O80, E6.0, K3), Identity)
+((O80, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), None)
+(SE(O112, E6.0, K3), Identity)
+(SE(O112, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), None)
+(SE(O160, E6.0, K3), Identity)
+(SE(O160, E6.0, K3), Identity)
+1x1_Conv_O960_H_SWISH_BN
+1x1_Conv_O1280_H_SWISH
+1280x1000_Linear
+

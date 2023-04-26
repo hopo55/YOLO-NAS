@@ -108,7 +108,8 @@ args.model_init = "he_fout"
 args.validation_frequency = 1
 args.print_frequency = 10
 
-args.n_worker = 8
+# args.n_worker = 8
+args.n_worker = 0
 args.resize_scale = 0.08
 args.distort_color = "tf"
 args.image_size = "128,160,192,224"
@@ -124,7 +125,8 @@ args.width_mult_list = "1.0"
 args.dy_conv_scaling_mode = 1
 args.independent_distributed_sampling = False
 
-args.kd_ratio = 1.0
+# args.kd_ratio = 1.0
+args.kd_ratio = 0
 args.kd_type = "ce"
 
 
@@ -137,12 +139,12 @@ if __name__ == "__main__":
     # local_rank = 0 / rank = 0 / size = 1
     torch.cuda.set_device(hvd.local_rank()) 
 
-    args.teacher_path = download_url(
-        "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D4_E6_K7",
-        model_dir=".torch/ofa_checkpoints/%d" % hvd.rank(),
-    )
+    # args.teacher_path = download_url(
+    #     "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D4_E6_K7",
+    #     model_dir="ETRI/YOLO-NAS/once-for-all/.torch/ofa_checkpoints/%d" % hvd.rank(),
+    # )
 
-    num_gpus = hvd.size()
+    num_gpus = hvd.size()   # if use single-gpu -> 1
 
     torch.manual_seed(args.manual_seed)
     torch.cuda.manual_seed_all(args.manual_seed)
@@ -150,7 +152,7 @@ if __name__ == "__main__":
     random.seed(args.manual_seed)
 
     # image size
-    args.image_size = [int(img_size) for img_size in args.image_size.split(",")]
+    args.image_size = [int(img_size) for img_size in args.image_size.split(",")] # [128, 160, 192, 224]
     if len(args.image_size) == 1:
         args.image_size = args.image_size[0]
     MyRandomResizedCrop.CONTINUOUS = args.continuous_size   # True
@@ -159,23 +161,23 @@ if __name__ == "__main__":
     # build run config from args
     args.lr_schedule_param = None
     args.opt_param = {
-        "momentum": args.momentum,
-        "nesterov": not args.no_nesterov,
+        "momentum": args.momentum,  # 0.9
+        "nesterov": not args.no_nesterov,   # not False -> True
     }
-    args.init_lr = args.base_lr * num_gpus  # linearly rescale the learning rate
-    if args.warmup_lr < 0:
+    args.init_lr = args.base_lr * num_gpus  # linearly rescale the learning rate / 0.0025 * 1
+    if args.warmup_lr < 0:  # 0.0025
         args.warmup_lr = args.base_lr
-    args.train_batch_size = args.base_batch_size
-    args.test_batch_size = args.base_batch_size * 4
+    args.train_batch_size = args.base_batch_size    # 64
+    args.test_batch_size = args.base_batch_size * 4     # 64 * 4 = 256
     run_config = DistributedImageNetRunConfig(
         **args.__dict__, num_replicas=num_gpus, rank=hvd.rank()
     )
 
-    # print run config information
-    if hvd.rank() == 0:
-        print("Run config:")
-        for k, v in run_config.config.items():
-            print("\t%s: %s" % (k, v))
+    # # print run config information
+    # if hvd.rank() == 0:
+    #     print("Run config:")
+    #     for k, v in run_config.config.items():
+    #         print("\t%s: %s" % (k, v))
 
     if args.dy_conv_scaling_mode == -1: # 1
         args.dy_conv_scaling_mode = None
@@ -193,18 +195,22 @@ if __name__ == "__main__":
         args.width_mult_list[0]
         if len(args.width_mult_list) == 1
         else args.width_mult_list
-    )
+    )   # [1.0]
+
+    print("===================================")
+    print(run_config.data_provider.n_classes)
+    print("===================================")
 
     # build model
     net = OFAMobileNetV3(
         n_classes=run_config.data_provider.n_classes,
-        bn_param=(args.bn_momentum, args.bn_eps),
-        dropout_rate=args.dropout,
-        base_stage_width=args.base_stage_width,
-        width_mult=args.width_mult_list,
-        ks_list=args.ks_list,
-        expand_ratio_list=args.expand_list,
-        depth_list=args.depth_list,
+        bn_param=(args.bn_momentum, args.bn_eps),   # 0.1, 1e-05
+        dropout_rate=args.dropout,  # 0.1
+        base_stage_width=args.base_stage_width, # proxyless
+        width_mult=args.width_mult_list,    # 1.0
+        ks_list=args.ks_list,   # [3, 5, 7]
+        expand_ratio_list=args.expand_list, # [6]
+        depth_list=args.depth_list, # [3, 4]
     )
     # teacher model
     if args.kd_ratio > 0:
@@ -259,7 +265,7 @@ if __name__ == "__main__":
         if distributed_run_manager.start_epoch == 0:
             args.ofa_checkpoint_path = download_url(
                 "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D4_E6_K7",
-                model_dir=".torch/ofa_checkpoints/%d" % hvd.rank(),
+                model_dir="ETRI/YOLO-NAS/once-for-all/.torch/ofa_checkpoints/%d" % hvd.rank(),
             )
             load_models(
                 distributed_run_manager,
@@ -285,16 +291,16 @@ if __name__ == "__main__":
             train_elastic_depth,
         )
 
-        if args.phase == 1:
-            args.ofa_checkpoint_path = download_url(
-                "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D4_E6_K357",
-                model_dir=".torch/ofa_checkpoints/%d" % hvd.rank(),
-            )
-        else:
-            args.ofa_checkpoint_path = download_url(
-                "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D34_E6_K357",
-                model_dir=".torch/ofa_checkpoints/%d" % hvd.rank(),
-            )
+        # if args.phase == 1:
+        #     args.ofa_checkpoint_path = download_url(
+        #         "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D4_E6_K357",
+        #         model_dir="ETRI/YOLO-NAS/once-for-all/.torch/ofa_checkpoints/%d" % hvd.rank(),
+        #     )
+        # else:
+        #     args.ofa_checkpoint_path = download_url(
+        #         "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D34_E6_K357",
+        #         model_dir="ETRI/YOLO-NAS/once-for-all/.torch/ofa_checkpoints/%d" % hvd.rank(),
+        #     )
         train_elastic_depth(train, distributed_run_manager, args, validate_func_dict)
     elif args.task == "expand":
         from ofa.imagenet_classification.elastic_nn.training.progressive_shrinking import (
@@ -304,12 +310,12 @@ if __name__ == "__main__":
         if args.phase == 1:
             args.ofa_checkpoint_path = download_url(
                 "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D234_E6_K357",
-                model_dir=".torch/ofa_checkpoints/%d" % hvd.rank(),
+                model_dir="ETRI/YOLO-NAS/once-for-all/.torch/ofa_checkpoints/%d" % hvd.rank(),
             )
         else:
             args.ofa_checkpoint_path = download_url(
                 "https://hanlab.mit.edu/files/OnceForAll/ofa_checkpoints/ofa_D234_E46_K357",
-                model_dir=".torch/ofa_checkpoints/%d" % hvd.rank(),
+                model_dir="ETRI/YOLO-NAS/once-for-all/.torch/ofa_checkpoints/%d" % hvd.rank(),
             )
         train_elastic_expand(train, distributed_run_manager, args, validate_func_dict)
     else:

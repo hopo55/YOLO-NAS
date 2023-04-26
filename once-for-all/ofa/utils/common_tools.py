@@ -114,6 +114,9 @@ def download_url(url, model_dir="~/.torch/", overwrite=False):
             os.makedirs(model_dir)
         model_dir = os.path.join(model_dir, target_dir)
         cached_file = model_dir
+        print('=========================')
+        print(cached_file)
+        print('=========================')
         if not os.path.exists(cached_file) or overwrite:
             sys.stderr.write('Downloading: "{}" to {}\n'.format(url, cached_file))
             urlretrieve(url, cached_file)

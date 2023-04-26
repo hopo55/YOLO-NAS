@@ -380,7 +380,8 @@ class _BaseDataLoaderIter(object):
         self._drop_last = loader.drop_last
         self._index_sampler = loader._index_sampler
         self._num_workers = loader.num_workers
-        self._pin_memory = loader.pin_memory and torch.cuda.is_available()
+        # self._pin_memory = loader.pin_memory and torch.cuda.is_available()
+        self._pin_memory = False
         self._timeout = loader.timeout
         self._collate_fn = loader.collate_fn
         self._sampler_iter = iter(self._index_sampler)

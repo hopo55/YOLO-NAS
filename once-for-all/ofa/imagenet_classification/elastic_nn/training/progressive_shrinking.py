@@ -298,7 +298,7 @@ def train_elastic_depth(train_func, run_manager, args, validate_func_dict):
     if run_manager.start_epoch == 0 and not args.resume:
         validate_func_dict["depth_list"] = sorted(dynamic_net.depth_list)
 
-        load_models(run_manager, dynamic_net, model_path=args.ofa_checkpoint_path)
+        # load_models(run_manager, dynamic_net, model_path=args.ofa_checkpoint_path)
         # validate after loading weights
         run_manager.write_log(
             "%.3f\t%.3f\t%.3f\t%s"
