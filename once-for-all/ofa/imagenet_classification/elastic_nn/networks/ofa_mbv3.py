@@ -72,6 +72,8 @@ class OFAMobileNetV3(MobileNetV3):
         )
 
         # MBConvLayer -> Mobile Block Convolution Layer
+        # depth_conv and point_liner
+        # why use padding and groups in depth_conv?
         first_block_conv = MBConvLayer(
             in_channels=input_channel,
             out_channels=first_block_dim,
@@ -81,16 +83,11 @@ class OFAMobileNetV3(MobileNetV3):
             act_func=act_stages[0],
             use_se=se_stages[0],
         )
-        print("************************************")
-        print("MBConvLayer")
-        print(first_block_conv)
-        print("************************************")
 
+        # MBConvLayer and shortcut
         first_block = ResidualBlock(
             first_block_conv,
-            IdentityLayer(first_block_dim, first_block_dim)
-            if input_channel == first_block_dim
-            else None,
+            IdentityLayer(first_block_dim, first_block_dim) if input_channel == first_block_dim else None, # shortcut
         )
 
         # inverted residual blocks
