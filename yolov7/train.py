@@ -565,30 +565,30 @@ if __name__ == '__main__':
     opt = parser.parse_args()
 
     # Set DDP variables
-    opt.world_size = int(os.environ['WORLD_SIZE']) if 'WORLD_SIZE' in os.environ else 1
-    opt.global_rank = int(os.environ['RANK']) if 'RANK' in os.environ else -1
+    opt.world_size = int(os.environ['WORLD_SIZE']) if 'WORLD_SIZE' in os.environ else 1 # 1
+    opt.global_rank = int(os.environ['RANK']) if 'RANK' in os.environ else -1   # -1
     set_logging(opt.global_rank)
     #if opt.global_rank in [-1, 0]:
     #    check_git_status()
     #    check_requirements()
 
     # Resume
-    wandb_run = check_wandb_resume(opt)
-    if opt.resume and not wandb_run:  # resume an interrupted run
-        ckpt = opt.resume if isinstance(opt.resume, str) else get_latest_run()  # specified or most recent path
-        assert os.path.isfile(ckpt), 'ERROR: --resume checkpoint does not exist'
-        apriori = opt.global_rank, opt.local_rank
-        with open(Path(ckpt).parent.parent / 'opt.yaml') as f:
-            opt = argparse.Namespace(**yaml.load(f, Loader=yaml.SafeLoader))  # replace
-        opt.cfg, opt.weights, opt.resume, opt.batch_size, opt.global_rank, opt.local_rank = '', ckpt, True, opt.total_batch_size, *apriori  # reinstate
-        logger.info('Resuming training from %s' % ckpt)
-    else:
-        # opt.hyp = opt.hyp or ('hyp.finetune.yaml' if opt.weights else 'hyp.scratch.yaml')
-        opt.data, opt.cfg, opt.hyp = check_file(opt.data), check_file(opt.cfg), check_file(opt.hyp)  # check files
-        assert len(opt.cfg) or len(opt.weights), 'either --cfg or --weights must be specified'
-        opt.img_size.extend([opt.img_size[-1]] * (2 - len(opt.img_size)))  # extend to 2 sizes (train, test)
-        opt.name = 'evolve' if opt.evolve else opt.name
-        opt.save_dir = increment_path(Path(opt.project) / opt.name, exist_ok=opt.exist_ok | opt.evolve)  # increment run
+    # wandb_run = check_wandb_resume(opt)
+    # if opt.resume and not wandb_run:  # resume an interrupted run
+    #     ckpt = opt.resume if isinstance(opt.resume, str) else get_latest_run()  # specified or most recent path
+    #     assert os.path.isfile(ckpt), 'ERROR: --resume checkpoint does not exist'
+    #     apriori = opt.global_rank, opt.local_rank
+    #     with open(Path(ckpt).parent.parent / 'opt.yaml') as f:
+    #         opt = argparse.Namespace(**yaml.load(f, Loader=yaml.SafeLoader))  # replace
+    #     opt.cfg, opt.weights, opt.resume, opt.batch_size, opt.global_rank, opt.local_rank = '', ckpt, True, opt.total_batch_size, *apriori  # reinstate
+    #     logger.info('Resuming training from %s' % ckpt)
+    # else:
+    #    # opt.hyp = opt.hyp or ('hyp.finetune.yaml' if opt.weights else 'hyp.scratch.yaml')
+    opt.data, opt.cfg, opt.hyp = check_file(opt.data), check_file(opt.cfg), check_file(opt.hyp)  # check files
+    assert len(opt.cfg) or len(opt.weights), 'either --cfg or --weights must be specified'
+    opt.img_size.extend([opt.img_size[-1]] * (2 - len(opt.img_size)))  # extend to 2 sizes (train, test) -> [640, 640]
+    opt.name = 'evolve' if opt.evolve else opt.name # yolov7
+    opt.save_dir = increment_path(Path(opt.project) / opt.name, exist_ok=opt.exist_ok | opt.evolve)  # increment run / "runs/train/yolov7"
 
     # DDP mode
     opt.total_batch_size = opt.batch_size
@@ -605,17 +605,12 @@ if __name__ == '__main__':
     with open(opt.hyp) as f:
         hyp = yaml.load(f, Loader=yaml.SafeLoader)  # load hyps
     
-    print('==================================================')
-    print('opt')
-    print(opt)
-    print('==================================================')
-
     # Train
-    logger.info(opt)
-    if not opt.evolve:
+    # logger.info(opt)
+    if not opt.evolve:  # not False -> True
         tb_writer = None  # init loggers
-        if opt.global_rank in [-1, 0]:
-            prefix = colorstr('tensorboard: ')
+        if opt.global_rank in [-1, 0]:  # -1
+            prefix = colorstr('tensorboard: ')  # color text print
             logger.info(f"{prefix}Start with 'tensorboard --logdir {opt.project}', view at http://localhost:6006/")
             tb_writer = SummaryWriter(opt.save_dir)  # Tensorboard
         train(hyp, opt, device, tb_writer)

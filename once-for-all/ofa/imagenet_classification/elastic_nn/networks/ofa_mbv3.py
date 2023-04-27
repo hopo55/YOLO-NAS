@@ -70,6 +70,8 @@ class OFAMobileNetV3(MobileNetV3):
         first_conv = ConvLayer(
             3, input_channel, kernel_size=3, stride=2, act_func="h_swish"
         )
+
+        # MBConvLayer -> Mobile Block Convolution Layer
         first_block_conv = MBConvLayer(
             in_channels=input_channel,
             out_channels=first_block_dim,
@@ -79,6 +81,11 @@ class OFAMobileNetV3(MobileNetV3):
             act_func=act_stages[0],
             use_se=se_stages[0],
         )
+        print("************************************")
+        print("MBConvLayer")
+        print(first_block_conv)
+        print("************************************")
+
         first_block = ResidualBlock(
             first_block_conv,
             IdentityLayer(first_block_dim, first_block_dim)
